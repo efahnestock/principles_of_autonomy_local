@@ -11,8 +11,11 @@ Place the downloaded folder (you may have to unzip it) in the `homeworks` folder
 
 Deepnote will place the notebooks from the homework in a `work` folder. **You should move the contents of the `work` folder to the root of the homework folder before running the homework.** E.g., if you download `ps2.zip` from Deepnote, you should unzip it and move the contents of the `ps2/work` folder to `ps2/`. For example `ps2/work/Notebook.ipynb` should be moved to `ps2/Notebook.ipynb`.
 
-Then, run the following command in the terminal. 
-```bash start_docker.sh ps<homework number>``` where `<homework number>` is the number of the homework you want to run (e.g, `bash start_docker.sh ps2`). Note that if a homework hasn't been released yet, you won't be able to run it.
+Then, run the following command in the terminal.  
+```bash
+bash start_docker.sh ps<homework number>
+```   
+where `<homework number>` is the number of the homework you want to run (e.g, `bash start_docker.sh ps2`). Note that if a homework hasn't been released yet, you won't be able to run it.
 
 > **Note:** If you are using Windows, you may need to run the command in the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) (WSL) terminal, or otherwise run the commands in `start_docker.sh` in a manner that works with your docker setup.
 
