@@ -21,14 +21,14 @@ After running the script, you should see a printout of the Jupyter notebook URL.
 For example, part of the output should look like this: 
 ```bash
 ...
-jupyterlab-1  |     To access the server, open this file in a browser:
-jupyterlab-1  |         file:///root/.local/share/jupyter/runtime/jpserver-7-open.html
-jupyterlab-1  |     Or copy and paste one of these URLs:
-jupyterlab-1  |         http://32ab67515b33:9000/lab?token=<some token id>
-jupyterlab-1  |         http://127.0.0.1:9000/lab?token=<some token id>    <----- USE THIS LINK
+jupyterlab-1  | To access the server, open this file in a browser:
+jupyterlab-1  |   file:///root/.local/share/jupyter/runtime/jpserver-7-open.html
+jupyterlab-1  | Or copy and paste one of these URLs:
+jupyterlab-1  |   http://32ab67515b33:9000/lab?token=<some token id>
+jupyterlab-1  |   http://127.0.0.1:9000/lab?token=<some token id> <-- USE THIS LINK
 ...
 ```
-Once you open that link in your browser, you should see your local files on the left side of your screen. From there, you can open your homework notebook and start working on it.
+Once you open the last link in your browser, you should see your local files on the left side of your screen. From there, you can open your homework notebook and start working on it.
 
 > **Note:** If you want to use a local editor, most can connect to an existing Jupyter server. You can use the token provided in the output to connect your editor to the Jupyter server. [Instructions for VSCode](https://code.visualstudio.com/docs/datascience/jupyter-kernel-management#_existing-jupyter-server)
 
