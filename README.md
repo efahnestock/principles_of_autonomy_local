@@ -4,17 +4,26 @@ This repository aims to support running homework for the Principles of Autonomy 
 ## Requirements
 You will need to install [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 
+We also highly reccomend installing git to clone and pull from this repo. Follow [the official instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
+Information on the [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull) commands.
+
+## Download this Repository
+If you have git installed, you can clone this repository using:
+```bash
+git clone https://github.com/efahnestock/principles_of_autonomy_local.git
+```
+If not, you can download the repository by clicking Code -> Download Zip. This is not reccomended. 
+
 ## Downloading the Homework
 If you have git, directly pull from this repo to get the newest homework.
+```bash
+git pull
+```
+You may run into conflicts you need to [resolve](https://opensource.com/article/23/4/resolve-git-merge-conflicts).
 
-If not, download the .zip file on Canvas - Modules - Homeworks. For example, for pset 5, the zip file is `ps5-reinforcement-learning.zip`. Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
-
-To install git, follow [the official instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
-<!-- First, download the homework from the Deepnote project in the same manner as you do when submitting the homework (check the homework submission guide on Canvas). 
+If you do not have git, download the .zip file on Canvas - Modules - Homeworks. For example, for pset 5, the zip file is `ps5-reinforcement-learning.zip`. Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
 
 Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
-
-Deepnote will place the notebooks from the homework in a `work` folder. **You should move the contents of the `work` folder to the root of the homework folder before running the homework.** E.g., if you download `ps2.zip` from Deepnote, you should unzip it and move the contents of the `ps2/work` folder to `ps2/`. For example `ps2/work/Notebook.ipynb` should be moved to `ps2/Notebook.ipynb`. -->
 
 ## Running the Homework
 First open the docker app. Then, build the docker image by running the following command in the terminal.  
@@ -45,4 +54,4 @@ Once you open the last link in your browser, you should see your local files on 
 To stop the homework, simply kill the command running in the terminal by pressing `Ctrl+C`. This will stop the Jupyter notebook server and the Docker container.
 
 ## Submitting the Homework
-Directly upload all the files in the folder when submitting on Gradescope. Or you can select all files in the folder and compress then submit the zip file on Gradescope. Note you shouldn't compress the folder directly, instead you need to compress all the files, otherwise there will be path issues on Gradescope causing test failures.
+Directly upload all the files in the specific homework folder (e.g., all the files in the folder `homeworks/ps5-reinforcement-learning`) when submitting on Gradescope. Or you can select all files in the homework folder and compress then submit the zip file on Gradescope. Note you shouldn't compress the homework folder directly, instead you need to compress all the files, otherwise there will be path issues on Gradescope causing test failures.
