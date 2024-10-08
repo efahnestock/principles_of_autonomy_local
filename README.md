@@ -8,9 +8,10 @@ We also highly reccomend installing git to clone and pull from this repo. Follow
 Information on the [clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) and [pull](https://www.atlassian.com/git/tutorials/syncing/git-pull) commands.
 
 ## Download this Repository
-If you have git installed, you can clone this repository using:
+If you have git installed, you can clone and change directory into this repository using:
 ```bash
 git clone https://github.com/efahnestock/principles_of_autonomy_local.git
+cd principles_of_autonomy_local
 ```
 If not, you can download the repository by clicking Code -> Download Zip. This is not reccomended. 
 
@@ -25,12 +26,16 @@ If you do not have git, download the .zip file on Canvas - Modules - Homeworks. 
 
 Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
 
-## Running the Homework
-First open the docker app. Then, build the docker image by running the following command in the terminal.  
+## Running the Homework / Project
+First open the docker app. Then, build the docker image by running the following command in the terminal. Note that your current working directory should be the root level of this repository (`principles_of_autonomy_local/`)
 ```bash
-bash start_docker.sh ps<homework number>
-```   
-where `<homework number>` is the number of the homework you want to run (e.g, `bash start_docker.sh ps2`). Note that if a homework hasn't been released yet, you won't be able to run it.
+bash start_docker.sh ps<number>
+```
+or for projects
+```bash
+bash start_docker.sh proj<number>
+```
+where `<number>` is the number of the homework or project you want to run (e.g, `bash start_docker.sh ps2`, `bash start_docker.sh proj1`). Note that if a homework/project hasn't been released yet, you won't be able to run it.
 
 > **Note:** If you are using Windows, you may need to run the command in the [Windows Subsystem for Linux](https://learn.microsoft.com/en-us/windows/wsl/) (WSL) terminal, or otherwise run the commands in `start_docker.sh` in a manner that works with your docker setup.
 
