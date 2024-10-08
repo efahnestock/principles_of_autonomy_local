@@ -8,6 +8,8 @@ You will need to install [Docker Desktop](https://www.docker.com/products/docker
 If you have git, directly pull from this repo to get the newest homework.
 
 If not, download the .zip file on Canvas - Modules - Homeworks. For example, for pset 5, the zip file is `ps5-reinforcement-learning.zip`. Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
+
+To install git, follow [the official instructions](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 <!-- First, download the homework from the Deepnote project in the same manner as you do when submitting the homework (check the homework submission guide on Canvas). 
 
 Place the downloaded folder (you may have to unzip it) in the `homeworks` folder in this repository.
