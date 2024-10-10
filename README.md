@@ -21,18 +21,21 @@ If not, you can download the repository by clicking Code -> Download Zip. This i
 
 ## Instructions for Windows/WSL
 
-*Setup WSL*
+**Setup WSL**
 - Open Command Prompt  
 - ```wsl --install```
 - Restart computer if directed 
-*Clone repository*
+
+**Clone repository**
 - Open WSL. Do not clone the repository in Windows.
 - ```git clone https://github.com/efahnestock/principles_of_autonomy_local.git```
-*Setup Docker*
+
+**Setup Docker**
 - Follow the steps under "Turn on Docker Desktop WSL 2" at https://docs.docker.com/desktop/wsl/, making sure WSL 2 is clicked during install (it may be selected by default)
 - Restart computer if directed
 - Open Docker Desktop -> Settings ->Resources -> WSL Integration: Enable integration with additional distros: Ubuntu (change to on). Apply and Restart
-*Start Notebook*
+
+**Start Notebook**
 - Open WSL
 - ```cd principles_of_autonomy_local```
 - ```./start_docker.sh ps<homework number>```
@@ -41,7 +44,7 @@ If not, you can download the repository by clicking Code -> Download Zip. This i
 ## Downloading the Homework
 > Note: On windows/WSL, run all commands inside of WSL.
 
-If you have git, directly pull from this repo to get the newest homework.
+This command has to be run from the `principles_of_autonomy_local` directory. If you have git, directly pull from this repo to get the newest homework.
 ```bash
 git pull
 ```
